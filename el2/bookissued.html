@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Issued</title>
+</head>
+<body>
+    <h2>Book Issued</h2>
+    <div>
+    <form action="bookissued.php" method="post" id="book-issued">
+    
+        <div class="container">
+            <label for="bookremain">Books remaining for issue</label>
+            <input type="number" id="bookremain" name="books_remain" required><br>
+
+            <label for="maxbooks">Maximum books you can issue</label>
+            <input type="number" id="maxbooks" name="maximum_books" required><br>
+
+            <label for="bookID">Book ID</label>
+            <input type="text" id="bookID" name="book_id" required><br>
+
+            <input id="btn" type="submit" value="Submit">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

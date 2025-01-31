@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style2.css">
+    
+    <script src="https://kit.fontawesome.com/97ebdf5864.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="form-box">
+        <!-- Registration Form -->
+        <form action="adminregistration.php" method="POST" id="register-form">
+            <h2>Admin Register</h2>
+            <div class="form-group">
+                <input type="text" id="email" name="email" required>
+                <label for="">Email id</label>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="form-group">
+                <input type="text" id="admin_id" name="admin_id" required>
+                <label for="">admin id</label>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" required>
+                <label for="">Password</label>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="form-group">
+                <input type="confirm_password" id="confirm_password" name="confirm_password" required>
+                <label for="">Confirm Password</label>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+        
+            <input id="btn" type="submit" value="Register">
+            
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+</div>
+</body>
+</html>
